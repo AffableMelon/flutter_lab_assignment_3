@@ -3,22 +3,7 @@ import 'dart:convert';
 import 'package:flutter_lab_assignment_3/data/models/album_model.dart';
 import 'package:flutter_lab_assignment_3/data/models/photo_model.dart';
 import 'package:http/http.dart' as http;
-// part 'jsonplaceholder_api_service.g.dart';
 
-// @RestApi(baseUrl: "https://jsonplaceholder.typicode.com/")
-// abstract class JsonplaceholderApiService {
-//   factory JsonplaceholderApiService(Dio dio, {String baseUrl}) = _JsonplaceholderApiService;
-
-//   @GET("/albums")
-//   Future<List<AlbumModel>> getAlbums();
-
-//   @GET("/photos")
-//   Future<List<PhotoModel>> getPhotos();
-
-//   @GET("/photos")
-//   Future<List<PhotoModel>> getPhotosByAlbumId(@Query("albumId") int albumId);
-
-// }
 
 class JsonplaceholderApiService {
   final String _baseUrl = "https://jsonplaceholder.typicode.com/";
